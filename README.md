@@ -22,6 +22,7 @@
   <li>Define the function <code>rotLeft</code> and pass int 'a' and int 'd' as parameters with an integer array as a return type.</li>
   <li>Initialize a variable 'n_elements' to store the length of array 'a'.</li>
   <li>Create a new integer array 'rot' with the same length as array 'a'.</li>
+  <li>Handle exceptions on 'd' (ie. if d = 0 or d is equal to the lenght go the array) </li>
   <li>Loop through the original array 'a';
     <ul>
       <li>Calculate the index for the rotated array ('rot') using the formula '(i + (n_elements - d)) % n_elements'.</li>
